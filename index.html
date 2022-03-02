@@ -1,42 +1,55 @@
 <!doctype html>
 <html>
-  <head>
-    <title>pw</title>
-    <meta charset="utf-8"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <style>
-      html, body{
-        margin: 0;
-        padding: 0;
-        background-color: #000;
-      }
-      h1{
-        text-align: center;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        color: #fff;
-        font-family: 'JetBrains Mono', monospace;
-      }
-      .topbar{
-        top: 0;
-        width: 100%;
-        position: absolute;
-        height: 7rem;
-        background-color: #111;
-        box-shadow: 0 0 2em #111;
-      }
-      .spacer{
-         margin-top: 8rem;
-       }
-    </style>
-  </head>
-  <body>
-    <div class="topbar">
-      <h1>shie</h1>
-    </div>
-     <div class="spacer"></div>
-  </body>
+	<head>
+		<title>pw</title>
+		<meta charset="utf-8"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Lato:ital@1&display=swap" rel="stylesheet"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<style>
+			html, body{
+				margin: 0;
+				padding: 0;
+				background-color: #000;
+			}
+			.topbar h1{
+				text-align: center;
+				margin-top: 1rem;
+				margin-bottom: 1rem;
+				color: #fff;
+				font-family: 'JetBrains Mono', monospace;
+			}
+			.main h1{
+				margin-left: 7rem;
+				margin-top: 1em;
+				margin-bottom: 1em;
+				color: #ccc;
+				text-shadow: 0 0 2rem #305950;
+				font-family: 'Lato', sans-serif;
+				font-size: 8em;
+			}
+			.topbar{
+				z-index: 1;
+				top: 0;
+				width: 100%;
+				position: fixed;
+				height: auto;
+				background-color: #111;
+				box-shadow: 0 0 2em #111;
+			}
+			.spacer{
+				margin-top: 15rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="topbar">
+			<h1>shie</h1>
+		</div>
+		<div class="spacer"></div>
+		<div class="main">
+			<h1>i do things</h1>
+		</div>
+	</body>
 </html>
