@@ -14,30 +14,53 @@
 				background-color: #000;
 			}
 			.topbar h1{
-				text-align: center;
-				margin-top: 1rem;
-				margin-bottom: 1rem;
+				margin-top: 2rem;
+				margin-left: 1rem;
+				margin-bottom: 2rem;
+				display: inline-block;
 				color: #fff;
+				transition-duration: 1s;
 				font-family: 'JetBrains Mono', monospace;
+			}
+			.topbar h1:hover{
+				color: #acb;
+				text-shadow: 0 0 1rem #305950;
+			}
+			svg{
+				color: white;
+				display: inline-block;
 			}
 			.main h1{
 				margin-left: 7rem;
 				margin-top: 1em;
-				margin-bottom: 1em;
 				color: #ccc;
 				text-shadow: 0 0 2rem #305950;
 				font-family: 'Lato', sans-serif;
 				font-size: 8em;
 			}
+			.main h2{
+				margin-left: 24rem;
+				margin-top: -1em;
+				color: #bbb;
+				text-shadow: 0 0 2rem #303030;
+				font-family: 'Lato', sans-serif;
+				font-size: 6em;
+			}
 			.topbar{
 				z-index: 1;
 				top: 0;
-				width: 100%;
+				width: 100vw;
+				display: flex;
+        		justify-content: center;
+        		align-items: center;
 				position: fixed;
 				height: auto;
+				transition-delay: 2s;
+				transition-duration: 1s;
 				background-color: #111;
 				box-shadow: 0 0 2em #111;
 			}
+			
 			.spacer{
 				margin-top: 15rem;
 			}
@@ -45,11 +68,15 @@
 	</head>
 	<body>
 		<div class="topbar">
-			<h1>shie</h1>
+			<svg width="80" height="40">
+				<path fill="white" d="M 0 20 L 10 10 L 20 20 L 40 0 L 60 20 L 70 10 L 80 20 L 70 30 L 60 20 L 40 40 L 40 30 L 50 20 L 40 10 L 30 20 L 20 20 L 10 30 L 0 20 Z"/>
+			</svg>
+			<h1>shieldeddemon</h1>
 		</div>
 		<div class="spacer"></div>
 		<div class="main">
 			<h1>i do things</h1>
+			<h2>such as: </h2>
 		</div>
 	</body>
 </html>
